@@ -1,34 +1,37 @@
 # Linux Administration Practice
 
-## About This Repository
+Hands-on Linux administration labs completed as part of my DevOps training.
 
-This repository contains my hands-on Linux administration exercises completed while studying DevOps.
-
-I use Ubuntu Server 24.04 LTS in a VirtualBox virtual machine to practice Linux system administration and troubleshooting.
+I use an Ubuntu Server virtual machine to practice Linux command-line administration, user and permission management, storage, networking, and SSH.
 
 ## Environment
 
-- **Operating System:** Ubuntu Server 24.04 LTS
-- **Virtualization:** Oracle VirtualBox
-- **Access:** SSH
-- **Terminal:** Linux command line and Windows PowerShell
+- Ubuntu Server 24.04.5 LTS
+- Oracle VirtualBox
+- Bash and Linux command-line tools
 
-## Topics
+## Practical Labs
 
-- Linux command-line basics
-- File and directory management
-- Users and groups
-- File permissions
+| Lab | Topics |
+|---|---|
+| [Linux Commands](linux-commands.md) | Essential command-line tools |
+| [User Management](user-management.md) | Users, groups, and permissions |
+| [Disk Management](disk-management.md) | Disks, partitions, and storage inspection |
+| [Network and SSH](network-and-ssh.md) | Network diagnostics and remote access |
+| [Storage Lab](storage-lab.md) | LVM, filesystems, and RAID 1 inspection |
+
+## Skills Practiced
+
+- Linux command-line administration
+- User and permission management
+- Disk and filesystem inspection
+- LVM fundamentals
+- Software RAID diagnostics
+- Network troubleshooting
 - SSH remote access
-- Disk partitioning (MBR and GPT)
-- Logical Volume Manager (LVM)
-- Basic network troubleshooting
-- System administration commands
 
-## Current Goal
+## About
 
-To develop practical Linux administration skills and build a foundation for a career in DevOps and infrastructure administration.
+I am currently studying DevOps and building practical Linux administration skills through hands-on labs.
 
-## Learning Approach
-
-Each topic is practiced in a virtual lab. Commands and exercises are added to this repository as I progress.
+This repository documents my learning process and practical exercises. It is a personal training project, not production-system experience.
